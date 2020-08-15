@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sect {
+    position: absolute;
+    border: 1px solid #000;
+}
+
+.sect .slide {
+    position: relative;
+    background: #43ab92;
+    height: 100vh;
+    flex: 1;
+    border-right: 1px solid #000;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+.sect .slide:last-child {
+    border-right: none;
+}
+
+.sect .slide:hover {
+    flex-grow: 4;
+}
+
+.sect .slide:nth-child(1) {
+    background: url(../tema/imagini/img3.jpg);
+    position: center center;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.sect .slide:nth-child(2) {
+    background: url(../tema/imagini/img4.jpg);
+    position: center center;
+}
+
+.sect .slide:nth-child(3) {
+    background: url(../tema/imagini/img7.jpg);
+    position: center center;
+}
+
+.sect .slide:nth-child(4) {
+    background: url(../tema/imagini/img8.jpg);
+    position: center center;
+}
+
+.sect .slide:nth-child(5) {
+    background: url(../tema/imagini/img5.jpg);
+    position: center center;
+}
+
+.sect .slide .content {
+    position: absolute;
+    bottom: 0;
+    margin: 35px;
+    padding: 25px;
+    background-color: #000;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0s;
+    transform: translateY(90px);
+    background-color: rgba(0, 0, 0, .8);
+    /* se realizeaza transatia pe axa y a continutul cu text */
+}
+
+
+/* //when hover the slide */
+
+.sect .slide:hover .content {
+    visibility: visible;
+    opacity: 0.9;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+    transform: translateY(0);
+}
+
+
+/* bara de navigare */
+
+nav ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+nav ul li a:hover {
+    background: #DD2C00;
+    border-radius: 6px;
+}
+
+nav ul li a {
+    font-size: 18px;
+}
+
+ul.navbar-nav li a {
+    color: #fff;
+}
+
+@media(max-width: 630px) {
+    .sect .slide:hover {
+        flex-grow: 10 !important;
+    }
+}
+
+
+/** media queries */
+
+
+/* Medium devices (landscape and portrait tablets, 768px .. 1024px and up) */
+
+
+/* Portrait and Landscape */
+
+
+/*** ----------- iPad 1, 2, Mini and Air -----------  */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .sect .slide .content {
+        font-size: 24px;
+    }
+    .sect .slide:hover {
+        flex-grow: 8;
+    }
+    .sect .slide:nth-child(3) {
+        background: url(../tema/imagini/img10.jpg);
+        position: center center;
+    }
+}
+
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1) {
+    /* .sect .slide {
+        min-height: 100%;
+        background-repeat: no-repeat;
+    } */
+    .sect .slide:nth-child(1) {
+        background-repeat: no-repeat;
+        background-color: brown;
+    }
+    .sect .slide:nth-child(2) {
+        background-repeat: no-repeat;
+        background-color: brown;
+    }
+    .sect .slide:nth-child(3) {
+        background-repeat: no-repeat;
+        background-color: brown;
+    }
+    .sect .slide:nth-child(4) {
+        background-repeat: no-repeat;
+        background-color: brown;
+    }
+    .sect .slide:nth-child(5) {
+        background-repeat: no-repeat;
+        background-color: brown;
+    }
+    a.nav-link {
+        font-size: 22px;
+    }
+}

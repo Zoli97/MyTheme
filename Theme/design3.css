@@ -1,0 +1,78 @@
+/**set the height to enable the bagr image cover the whole page */
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    background: url(../tema/imagini/img15.jfif);
+    height: 100%;
+    background-position: center;
+    /**scale and zoom in the image */
+    background-size: cover;
+    /**to enable absolutely positioned elements inside the image(text ) */
+    position: relative;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/**position text in the middle */
+
+.container2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.display-1 {
+    font-size: 40px;
+    letter-spacing: 30px;
+    /**thin or thick char in text */
+    font-weight: 100;
+}
+
+#demo {
+    font-weight: lighter;
+    word-spacing: 22px;
+}
+
+.hr {
+    /**align in the center */
+    margin: auto;
+    width: 80%;
+    border: 1.5px solid #fff;
+}
+
+
+/* nav.navbar.navbar-expand-sm.bg-black.justify-content-end ul {} */
+
+ul.navbar-nav li a {
+    color: #fff !important;
+}
+
+
+/* nav.navbar.navbar-expand-sm.bg-black.justify-content-end ul {} */
+
+nav {
+    position: fixed;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+nav ul li a {
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    background: #DD2C00;
+    border-radius: 6px;
+}

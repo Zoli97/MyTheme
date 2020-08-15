@@ -1,0 +1,788 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    width: 100%;
+    height: 80vh;
+    background: url('wallpaper.jpg') no-repeat 50% 50%;
+    background-size: cover;
+}
+
+h2.text-sm-center.m-4.font-weight-bolder.text-white {
+    padding: 30px;
+}
+
+.content {
+    padding-top: 35px;
+}
+
+p.text-sm-justify.m-4.font-weight-light.text-black.text-white {
+    font-size: 20px;
+    color: white !important;
+}
+
+div.h-divider {
+    width: 5%;
+    height: 1%;
+    border: 2px solid #fff;
+    margin: 0 auto;
+    align-items: center;
+}
+
+hr.h-divider2 {
+    width: 5%;
+    height: 1%;
+    border: 2px solid #fff;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+/* ul.navbar-nav li a {
+    color: #fff !important;
+}
+
+nav {
+    position: fixed;
+} */
+
+
+/* nav ul {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    list-style: none;
+    padding: 0;
+    opacity: 0.9;
+}
+
+
+.toggle {
+    padding: 10px 20px;
+    background: #424242;
+    font-size: 30px;
+    color: #fff;
+    box-sizing: border-box;
+    display: none;
+} */
+
+
+/* .navbar-nav li a {
+    color: #fff;
+} */
+
+
+/* nav.black {
+    background-color: black;
+    transition: 2s;
+    overflow: hidden;
+} */
+
+
+/* nav.redd {
+    transition: 2s;
+    /* background-color: red; }*/
+
+nav ul li {
+    display: inline-block;
+    /* padding: 15px; */
+}
+
+nav ul li a {
+    font-size: 18px;
+}
+
+nav ul li a:focus {
+    outline: none;
+}
+
+nav ul li a:hover {
+    background: #DD2C00;
+    border-radius: 6px;
+}
+
+
+/* @media(max-width: 580px) {
+    nav ul {
+        max-height: 0px;
+        background: red;
+    }
+    nav.black ul {
+        background-color: red;
+    }
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 20px 0;
+    }
+} */
+
+#id_jumbotron {
+    width: 100%;
+    background-color: brown;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+.btn {
+    position: relative;
+    padding: 1.4rem 4.2rem;
+    padding-right: 3.1rem;
+    font-size: 0.9rem;
+    color: #FFFF00;
+    letter-spacing: 0.9rem;
+    text-transform: uppercase;
+    transition: all 600ms cubic-bezier(0.77, 0, 0.175, 1);
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn:before,
+.btn:after {
+    content: '';
+    position: absolute;
+    transition: inherit;
+    z-index: -1;
+}
+
+.btn:hover {
+    background: #DD2C00;
+    transition-delay: .6s;
+    color: #fff;
+}
+
+.btn:hover:before {
+    transition-delay: 0s;
+}
+
+.btn:hover:after {
+    background: #DD2C00;
+    transition-delay: .4s;
+    /* z-index: 9999999 !important; */
+}
+
+#id_button {
+    margin: 8px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.flex-column {
+    max-width: 240px;
+}
+
+.section1 {
+    background-color: brown;
+}
+
+img {
+    margin: 8px;
+    height: 100px;
+}
+
+.scale {
+    transform: scaleY(1.85);
+}
+
+.swiper-container {
+    width: 100%;
+    height: 250px;
+}
+
+
+/* Center slide text vertically */
+
+.swiper-slide {
+    text-align: center;
+    background: brown;
+    font-size: 18px;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    -webkit-box-flex: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+/* .col-sm-12 {
+    margin: 10px;
+} */
+
+div#container2.container {
+    vertical-align: top;
+}
+
+h3.jumbo-head {
+    color: #fff;
+    margin: 0;
+}
+
+.my-container {
+    padding-bottom: 40px;
+    width: 100%;
+    height: 15px;
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+
+#my-container2 {
+    width: 100%;
+    padding: 5px;
+    align-content: center;
+    margin: 0 auto;
+    top: 40px;
+}
+
+div.jumbotron.display-4.w-75 {
+    width: 100% !important;
+    background-color: brown;
+    color: #fff;
+}
+
+div.my-container3 {
+    width: 15%;
+    /* margin: 0 auto; */
+    text-align: left;
+}
+
+article {
+    background-color: rgb(0, 0, 0);
+}
+
+p.lead {
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    letter-spacing: 0.0625em;
+    margin-top: 16px;
+    text-align: justify;
+}
+
+#p_lead {
+    text-align: center;
+}
+
+h3.display-5.text-center {
+    letter-spacing: 0.0625em;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer {
+    background-color: brown;
+}
+
+footer {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding: 30px 0;
+    box-sizing: border-box;
+    background-color: brown;
+}
+
+.inner-footer {
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+}
+
+.inner-footer .footer-third {
+    width: calc(24.6666666667% - 20px);
+    margin-right: 10px;
+    float: left;
+    height: 100%;
+}
+
+.inner-footer .footer-third:last-child {
+    margin-right: 0;
+}
+
+.inner-footer .footer-third h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    display: block;
+    color: #000;
+    width: 100%;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.inner-footer .footer-third a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    display: block;
+    color: #fff;
+    width: 100%;
+    font-weight: 200;
+    padding-bottom: 5px;
+}
+
+#Governance {
+    width: 90px;
+}
+
+#Terms_Condit {
+    width: 160px;
+}
+
+#Privacy_policy {
+    width: 110px;
+}
+
+#Impact_repo {
+    width: 120px;
+}
+
+#Brochure {
+    width: 70px;
+}
+
+#Donate {
+    width: 60px;
+}
+
+#font_link {
+    width: 180px;
+}
+
+.inner-footer .footer-third li i a {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.footer-third2 li {
+    list-style: none;
+}
+
+.inner-footer h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    display: block;
+    color: #000;
+    width: 100%;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.inner-footer .footer-third2 a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    display: block;
+    color: #fff;
+    width: 100%;
+    font-weight: 200;
+    padding-bottom: 5px;
+    /* padding-left: 15px; */
+    margin: 5px 5px;
+}
+
+
+/**margin between icon and text */
+
+::before {
+    margin-right: 8px;
+}
+
+@media(max-width: 630px) {
+    footer .inner-footer {
+        max-width: 90%;
+        margin-right: 10px;
+    }
+    .inner-footer .footer-third,
+    .inner-footer .footer-third2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .inner-footer .footer-third .wrapper p {
+        padding-bottom: 0px !important;
+        margin-right: 10px;
+    }
+}
+
+.inner-footer .footer-third h6 {
+    color: #fff;
+    margin: 5px 0;
+    padding-top: 30px;
+}
+
+.inner-footer .footer-third .wrapper p {
+    color: #fff;
+    padding-bottom: 8px;
+}
+
+.inner-footer .footer-third .wrapper li {
+    list-style: none;
+}
+
+.inner-footer .footer-third a {
+    text-decoration: none;
+}
+
+.my-container2 .cont .para-cont p {
+    display: flex;
+}
+
+.d-flex.flex-column .img-fluid:hover {
+    /* opacity: .5;
+    transition: .9s;
+    background-color: #fff; */
+    filter: grayscale(70%);
+    transform: scale(0.9);
+    background-color: brown;
+}
+
+#btn_outline {
+    border: none;
+    color: #FFFF00;
+    padding: 6px 12px;
+}
+
+#btn_outline:hover {
+    background-color: #DD2C00;
+    color: #fff;
+    transition-delay: .6s;
+    letter-spacing: 0.9rem;
+    text-transform: uppercase;
+}
+
+
+/* my patters for padding */
+
+.pt-6,
+.py-6 {
+    padding-top: 5rem !important;
+}
+
+.pb-6,
+.py-6 {
+    padding-bottom: 5rem !important;
+}
+
+.head {
+    box-sizing: border-box;
+    position: relative;
+    transform-style: inherit;
+    width: 100vw;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.head h1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.head,
+.head::before {
+    background: 50% 50% / cover;
+}
+
+.head::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    background: url('HERO.jpeg');
+    background-size: cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 100vh;
+    margin: 0 !important;
+}
+
+.container-fluid {
+    z-index: 3;
+    position: absolute;
+    top: 100vh;
+    background: black;
+    line-height: 30px;
+    font-weight: lighter;
+    /* padding: 40px; */
+    color: gray;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #424242;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    margin: 2px;
+}
+
+::-webkit-scrollbar-corner {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    overflow: scroll;
+}
+
+
+/** media queries */
+
+
+/* Medium devices (landscape and portrait tablets, 768px .. 1024px and up) */
+
+
+/* Portrait and Landscape */
+
+
+/*** ----------- iPad 1, 2, Mini and Air -----------  */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    /** header */
+    h2.text-sm-center.m-3.font-weight-bolder.text-white {
+        font-size: 20px;
+    }
+    .col-sm-12.pt-6.my-3 {
+        padding: 25px !important;
+        margin-top: 40px !important;
+        margin-bottom: 40px !important;
+    }
+    header {
+        height: 380px;
+    }
+    /**swiper and divider */
+    div#id_jumbotron {
+        padding: 30px;
+    }
+    .jumbotron.display-4.w-75 {
+        padding-top: 0;
+        padding-bottom: 45px !important;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    h3.jumbo-head {
+        font-size: 3.5rem !important;
+        margin-bottom: 8px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+    hr.h-divider2 {
+        margin-top: 30px;
+    }
+    #my-container2 {
+        margin-top: 0;
+    }
+    /**flexbox images */
+    .img-fluid {
+        height: 250px !important;
+    }
+    /** footer spacing */
+    .inner-footer .footer-third .wrapper {
+        margin-left: 10px;
+    }
+    #find_us {
+        padding-left: 10px;
+    }
+    /**Page 2 About */
+    .container-fluid.p-5 {
+        font-size: 18px;
+    }
+    .head,
+    .head::before {
+        width: 100%;
+        background-size: 100% 80%;
+        background-repeat: no-repeat;
+        transform: translateZ(-1px) scale(2);
+    }
+}
+
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    /**header */
+    #p_lead {
+        font-size: 22px;
+    }
+    h2.text-sm-center.m-3.font-weight-bolder.text-white {
+        font-size: 26px;
+    }
+    /** swiper */
+    p.lead.justify-content-start.m-3 {
+        font-size: 22px;
+    }
+    /**article */
+    p.lead.justify-content-start.m-3 {
+        font-size: 22px;
+    }
+    /**footer */
+    .footer-third {
+        font-size: 22px;
+    }
+    #linkkk {
+        font-size: 22px;
+    }
+    #Brochure,
+    #Donate,
+    #Governance,
+    #Impact_repo {
+        font-size: 22px;
+    }
+    i.fa.fa-facebook-square,
+    i.fa.fa-google-plus-square,
+    i.fa.fa-linkedin-square,
+    i.fa.fa-twitter-square,
+    i.fa.fa-youtube-square,
+    i.fa.fa-rss-square {
+        font-size: 22px;
+    }
+    h1#find_us {
+        font-size: 26px;
+    }
+    #h_1 {
+        font-size: 26px;
+    }
+    #connect_with_us {
+        font-size: 26px;
+        margin-right: 15px;
+    }
+    /** flexbox img */
+    .img-fluid {
+        width: 200px;
+    }
+    /** nav link */
+    a.nav-link {
+        font-size: 22px;
+    }
+    /** button */
+    button#btn_outline {
+        font-size: 20px;
+    }
+    div#id_button {
+        font-size: 20px;
+    }
+    /**page about */
+    .container-fluid.p-5 {
+        font-size: 24px;
+        color: gray;
+    }
+}
+
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    h2.text-sm-center.m-3.font-weight-bolder.text-white {
+        font-size: 14px;
+        text-align: center;
+    }
+    p#p_lead {
+        font-size: 10px;
+    }
+    p.lead.justify-content-start.m-3 {
+        font-size: 10px;
+    }
+    /* nav ul {
+        padding: 0;
+        float: inline-end;
+    }
+    nav ul li {
+        position: fixed;
+        background-color: #DD2C00;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        display: none;
+    } */
+    /* .nav-link {} */
+    /* .toggle {
+        display: block;
+    }
+    ul {
+        width: 100%;
+    }
+    ul li {
+        display: block;
+        text-align: center;
+    } */
+    h1.display-4 {
+        font-size: 25px;
+    }
+    h3.jumbo-head {
+        font-size: 25px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    i.fa.fa-heart.px-3,
+    i.fa.fa-globe.px-3,
+    i.fa.fa-calendar-check-o.px-3,
+    i.fa.fa-upload.px-3 {
+        font-size: 18px !important;
+        padding: 6px !important;
+    }
+    hr.h-divider2 {
+        margin-top: 35px;
+        width: 15%;
+    }
+    /** second swipe container */
+    .jumbotron.display-4.w-75 {
+        padding: 24px 12px;
+    }
+    /**buttons */
+    button#btn_outline {
+        font-size: 10px;
+        letter-spacing: 8px;
+    }
+    div#id_jumbotron {
+        margin-bottom: 25px !important;
+    }
+    /** flexbox image padding */
+    .d-flex.flex-row.flex-wrap.justify-content-center.py-4 {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+}
